@@ -86,6 +86,8 @@
 
 
 	<build>
+		<sourceDirectory>src</sourceDirectory>
+
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>
@@ -114,7 +116,7 @@
 					<configuration>
 						<!-- Suite testng xml file to consider for test execution -->
 						<suiteXmlFiles>
-							<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
+							<suiteXmlFile>src/test/resources/testRunners/TestNG.Regression.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
