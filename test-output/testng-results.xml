@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+<testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="OpenCart TestNG Suite" duration-ms="38568" started-at="2021-03-11T09:42:03Z" finished-at="2021-03-11T09:42:41Z">
+  <suite name="Default suite" duration-ms="7155" started-at="2021-04-05T00:21:38Z" finished-at="2021-04-05T00:21:45Z">
     <groups>
     </groups>
-    <test name="LoginPage Test" duration-ms="15374" started-at="2021-03-11T09:42:03Z" finished-at="2021-03-11T09:42:18Z">
+    <test name="Default test" duration-ms="7155" started-at="2021-04-05T00:21:38Z" finished-at="2021-04-05T00:21:45Z">
       <class name="com.qa.WordPress.tests.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.WordPress.tests.LoginPageTest@6c40365c]" name="setup" is-config="true" duration-ms="9108" started-at="2021-03-11T09:42:03Z" finished-at="2021-03-11T09:42:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.WordPress.tests.LoginPageTest@2f7298b]" name="setup" is-config="true" duration-ms="6960" started-at="2021-04-05T00:21:38Z" finished-at="2021-04-05T00:21:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginPageTest()[pri:1, instance:com.qa.WordPress.tests.LoginPageTest@6c40365c]" name="verifyLoginPageTest" duration-ms="179" started-at="2021-03-11T09:42:12Z" finished-at="2021-03-11T09:42:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTest -->
-        <test-method status="FAIL" signature="verifyForgotPwdLink()[pri:2, instance:com.qa.WordPress.tests.LoginPageTest@6c40365c]" name="verifyForgotPwdLink" duration-ms="165" started-at="2021-03-11T09:42:12Z" finished-at="2021-03-11T09:42:12Z">
+        <test-method status="FAIL" signature="verifyForgotPwdLink()[pri:2, instance:com.qa.WordPress.tests.LoginPageTest@2f7298b]" name="verifyForgotPwdLink" duration-ms="138" started-at="2021-04-05T00:21:45Z" finished-at="2021-04-05T00:21:45Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Forgotten Password5"}
-  (Session info: chrome=88.0.4324.190)
+  (Session info: chrome=89.0.4389.114)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
 System info: host: 'DESKTOP-UGTURIK', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Mohammad\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a9d9241a68ad56bc7613e4d6815dec6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Mohammad\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 303c07edff7059883d73ce9d53e96af7
 *** Element info: {Using=link text, value=Forgotten Password5}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Forgotten Password5"}
-  (Session info: chrome=88.0.4324.190)
+  (Session info: chrome=89.0.4389.114)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
 System info: host: 'DESKTOP-UGTURIK', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Mohammad\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a9d9241a68ad56bc7613e4d6815dec6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Mohammad\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 303c07edff7059883d73ce9d53e96af7
 *** Element info: {Using=link text, value=Forgotten Password5}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -68,92 +64,29 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPwdLink -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.WordPress.tests.LoginPageTest@6c40365c]" name="loginTest" duration-ms="3766" started-at="2021-03-11T09:42:13Z" finished-at="2021-03-11T09:42:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.WordPress.tests.LoginPageTest@6c40365c]" name="tearDown" is-config="true" duration-ms="1301" started-at="2021-03-11T09:42:17Z" finished-at="2021-03-11T09:42:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.WordPress.tests.LoginPageTest@2f7298b]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-04-05T00:21:45Z" finished-at="2021-04-05T00:21:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.WordPress.tests.LoginPageTest -->
-    </test> <!-- LoginPage Test -->
-    <test name="AccountPage Test" duration-ms="21163" started-at="2021-03-11T09:42:03Z" finished-at="2021-03-11T09:42:24Z">
-      <class name="com.qa.WordPress.tests.AccountPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.WordPress.tests.AccountPageTest@65d09a04]" name="setup" is-config="true" duration-ms="10515" started-at="2021-03-11T09:42:03Z" finished-at="2021-03-11T09:42:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AccountPageSetup()[pri:0, instance:com.qa.WordPress.tests.AccountPageTest@65d09a04]" name="AccountPageSetup" is-config="true" duration-ms="3661" started-at="2021-03-11T09:42:13Z" finished-at="2021-03-11T09:42:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AccountPageSetup -->
-        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.qa.WordPress.tests.AccountPageTest@65d09a04]" name="homePageTitleTest" duration-ms="437" started-at="2021-03-11T09:42:17Z" finished-at="2021-03-11T09:42:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageTitleTest -->
-        <test-method status="PASS" signature="verifyAccountPageHeaderTest()[pri:2, instance:com.qa.WordPress.tests.AccountPageTest@65d09a04]" name="verifyAccountPageHeaderTest" duration-ms="1313" started-at="2021-03-11T09:42:17Z" finished-at="2021-03-11T09:42:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccountPageHeaderTest -->
-        <test-method status="PASS" signature="verifyAccountHeadersSize()[pri:3, instance:com.qa.WordPress.tests.AccountPageTest@65d09a04]" name="verifyAccountHeadersSize" duration-ms="60" started-at="2021-03-11T09:42:19Z" finished-at="2021-03-11T09:42:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccountHeadersSize -->
-        <test-method status="PASS" signature="VerifyAccountPageHeaders()[pri:4, instance:com.qa.WordPress.tests.AccountPageTest@65d09a04]" name="VerifyAccountPageHeaders" duration-ms="167" started-at="2021-03-11T09:42:19Z" finished-at="2021-03-11T09:42:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyAccountPageHeaders -->
-        <test-method status="PASS" signature="verifySearch()[pri:5, instance:com.qa.WordPress.tests.AccountPageTest@65d09a04]" name="verifySearch" duration-ms="3146" started-at="2021-03-11T09:42:19Z" finished-at="2021-03-11T09:42:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.WordPress.tests.AccountPageTest@65d09a04]" name="tearDown" is-config="true" duration-ms="1344" started-at="2021-03-11T09:42:23Z" finished-at="2021-03-11T09:42:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.WordPress.tests.AccountPageTest -->
-    </test> <!-- AccountPage Test -->
-    <test name="ProductInfoPage Test" duration-ms="18751" started-at="2021-03-11T09:42:23Z" finished-at="2021-03-11T09:42:41Z">
-      <class name="com.qa.WordPress.tests.ProductInfoPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.WordPress.tests.ProductInfoPageTest@291caca8]" name="setup" is-config="true" duration-ms="4296" started-at="2021-03-11T09:42:23Z" finished-at="2021-03-11T09:42:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="productInfoPagesetup()[pri:0, instance:com.qa.WordPress.tests.ProductInfoPageTest@291caca8]" name="productInfoPagesetup" is-config="true" duration-ms="3280" started-at="2021-03-11T09:42:27Z" finished-at="2021-03-11T09:42:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoPagesetup -->
-        <test-method status="PASS" signature="verifyProductInfoTest_MacBook()[pri:1, instance:com.qa.WordPress.tests.ProductInfoPageTest@291caca8]" name="verifyProductInfoTest_MacBook" duration-ms="5193" started-at="2021-03-11T09:42:30Z" finished-at="2021-03-11T09:42:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductInfoTest_MacBook -->
-        <test-method status="PASS" signature="verifyProductInfoTest_iMac()[pri:2, instance:com.qa.WordPress.tests.ProductInfoPageTest@291caca8]" name="verifyProductInfoTest_iMac" duration-ms="5012" started-at="2021-03-11T09:42:35Z" finished-at="2021-03-11T09:42:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductInfoTest_iMac -->
-        <test-method status="PASS" signature="productInfoPageTitleTest()[pri:3, instance:com.qa.WordPress.tests.ProductInfoPageTest@291caca8]" name="productInfoPageTitleTest" duration-ms="34" started-at="2021-03-11T09:42:40Z" finished-at="2021-03-11T09:42:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productInfoPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.WordPress.tests.ProductInfoPageTest@291caca8]" name="tearDown" is-config="true" duration-ms="922" started-at="2021-03-11T09:42:40Z" finished-at="2021-03-11T09:42:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.WordPress.tests.ProductInfoPageTest -->
-    </test> <!-- ProductInfoPage Test -->
-  </suite> <!-- OpenCart TestNG Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

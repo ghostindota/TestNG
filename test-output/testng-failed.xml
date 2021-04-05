@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [OpenCart TestNG Suite]" parallel="tests">
-  <listeners>
-    <listener class-name="com.qa.WordPress.testListeners.ExtentReportListener"/>
-    <listener class-name="com.qa.WordPress.testListeners.TesultsListener"/>
-  </listeners>
-  <test thread-count="2" name="LoginPage Test(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.qa.WordPress.tests.LoginPageTest">
         <methods>
@@ -15,5 +11,5 @@
         </methods>
       </class> <!-- com.qa.WordPress.tests.LoginPageTest -->
     </classes>
-  </test> <!-- LoginPage Test(failed) -->
-</suite> <!-- Failed suite [OpenCart TestNG Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
